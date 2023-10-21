@@ -1,0 +1,46 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+    
+}
+.container{
+    text-align: center;
+    height: 200px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.resim-div{
+    width: auto;
+    margin: auto;
+}
+
+.sola-kaydir{
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.footer{
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0px;
+}
+
+.footer div ul{
+    list-style-type: none;
+}
+
+.footer div .icon{
+    display: flex;
+    gap: 16px;
+}
+
+.font-type{
+    font-style:italic
+}
