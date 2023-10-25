@@ -6,11 +6,35 @@ body{
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
     
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
 .container{
-    text-align: center;
-    height: 200px;
-    padding: 16px;
+    display: flex;
+    border: 1px solid white;
+    box-sizing: border-box;
+    height: 75px;
+    padding: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+}
+
+.contain{
+    box-sizing: border-box;
+    display:inline-flex;
+    border: 1px solid white;
     margin-top: 12px;
+    justify-content: start;
+    align-items: center ;
+    position: relative;
+    height: 200px;
+    overflow: inherit
 }
 
 .resim-div{
@@ -44,3 +68,39 @@ body{
 .font-type{
     font-style:italic
 }
+
+.is-deneyimi{
+    display: flex;
+    border: 0px solid white;
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-top: 10px;
+    float: left;
+    padding: 10px 10px
+}
+.egitim{
+    display: flex;
+    border: 0px solid white;
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-top: 150px;
+    padding: 10px 10px;
+
+}
+
+.div ul{
+    justify-content: space-between;
+}
+
+.hobi{
+    border: 0px solid white;
+    padding: 10px 10px;
+    height: 100px;
+    display: inline-flex;
+    margin-left: 500px;
+    margin-top: 0px;
+    justify-content: space-between;
+
+}
+
+
